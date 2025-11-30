@@ -24,7 +24,7 @@ div p {
     font-size: 17px;
 }
 
-div h4 {
+div h3 {
     padding-left: 15px;
     padding-top: 15px;
     margin-bottom: 0;
@@ -33,21 +33,32 @@ div h4 {
     font-size: 25px;
 }
 
-div#apps{
+div{
     padding:20px;
+    margin:10px;
 }
 
-div#apps th,
+div th,
 td {
     border: solid black;
     text-align: center;
     padding: 5px;
 }
 
-div#apps tbody th,td{
+div tbody th,td{
     font-family:Consolas
 }
 
-div#apps caption {
+div caption {
     font-size: 20px;
+}
+
+div.download {
+    border-radius: 15px;
+    background-color: rgb(95, 165, 255);
+}
+
+div.download a{
+    font-family:"Arial Black";
+    color: #d7d7d7;
 }
