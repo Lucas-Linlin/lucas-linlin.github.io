@@ -8,6 +8,11 @@ h1 {
     font-family: 'Segue Ui';
 }
 
+p{
+    color: #fff;
+    font-family: 'Segue Ui';
+}
+
 div {
     background: #666;
     border-color: white;
@@ -33,9 +38,9 @@ div h3 {
     font-size: 25px;
 }
 
-div{
-    padding:20px;
-    margin:10px;
+div {
+    padding: 20px;
+    margin: 10px;
 }
 
 div th,
@@ -45,20 +50,26 @@ td {
     padding: 5px;
 }
 
-div tbody th,td{
-    font-family:Consolas
+div tbody th,
+td {
+    font-family: Consolas
 }
 
 div caption {
     font-size: 20px;
 }
 
-div.download {
+button.download {
+    padding: 10px;
+    border:3px;
     border-radius: 15px;
     background-color: rgb(95, 165, 255);
+    font-family: "Arial Black";
+    color:#d7d7d7;
 }
-
-div.download a{
-    font-family:"Arial Black";
-    color: #d7d7d7;
+button.download:hover{
+    background-color: rgb(68, 118, 183);
+}
+button.download:active{
+    background-color: rgb(52, 90, 140);
 }
