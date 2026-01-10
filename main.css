@@ -1,5 +1,5 @@
 body {
-    background: #373737;
+    background: #0e0e0e;
 }
 
 h1 {
@@ -8,13 +8,13 @@ h1 {
     font-family: 'Segue Ui';
 }
 
-p{
+p {
     color: #fff;
     font-family: 'Segue Ui';
 }
 
 div {
-    background: #666;
+    background: #242424;
     border-color: white;
     border: 5px;
     border-radius: 20px;
@@ -41,18 +41,15 @@ div h3 {
 div {
     padding: 20px;
     margin: 10px;
+    font-family: Consolas;
+    color: #fff;
 }
 
 div th,
 td {
-    border: solid black;
+    border: solid rgb(255, 255, 255) 1px;
     text-align: center;
     padding: 5px;
-}
-
-div tbody th,
-td {
-    font-family: Consolas
 }
 
 div caption {
@@ -61,15 +58,17 @@ div caption {
 
 button.download {
     padding: 10px;
-    border:3px;
+    border: 3px;
     border-radius: 15px;
-    background-color: rgb(95, 165, 255);
+    background-color: #338bff;
     font-family: "Arial Black";
-    color:#d7d7d7;
+    color: #d7d7d7;
 }
-button.download:hover{
-    background-color: rgb(68, 118, 183);
+
+button.download:hover {
+    background-color: #1169ff;
 }
-button.download:active{
-    background-color: rgb(52, 90, 140);
+
+button.download:active {
+    background-color: #0058ff;
 }

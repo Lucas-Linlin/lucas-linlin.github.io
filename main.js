@@ -1,3 +1,5 @@
+let DARK_MODE = true;
+
 function downloadFile(url, filename) {
     const link = document.createElement('a');
     link.href = url;
@@ -6,3 +8,11 @@ function downloadFile(url, filename) {
     link.click();
     document.body.removeChild(link);
 }
+
+function switchLD(){
+    document.getElementsByClassName("ableLD").forEach(element => {
+            if (element.color == "black"){element.color = "white" }
+            else{element.color = "black" }
+            
+    });
+    }
